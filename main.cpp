@@ -2,7 +2,7 @@
 *****************************************************************************
 *                                                                             *
 *                        GrainEye Sand Grain Analyzer                         *
-*                                                                             *
+*                        ============================                         *
 *                           Version : 1.03                                    *
 *                           Status  : Under Development                       *
 *                                                                             *
@@ -31,7 +31,8 @@
 *   - This codebase contains only the **client-side logic**.                  *
 *   - Machine Learning model and map APIs run on cloud backend.               *
 *   - Qt porting ensures future cross-platform (Linux) compatibility.         *
-*                                                                             *
+*   - CLoud communication is currently not available, under development.      *
+*   - Code is yet to be optimized                                             *
 *   License:                                                                  *
 *   ------------------------------------------------------------------------- *
 *   This code is currently for **demonstration purposes only** (SIH 2025).    *
