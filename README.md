@@ -1,11 +1,11 @@
-# 🌊 GrainEye
+# 🌊 GrainEye Ver: 1.03
 *A Sand Grain Analyzer & Beach Sand Grain Mapping Tool*
 
 ---
 
 ## 📖 Overview
-**GrainEye** is a sand grain analyzer and beach mapping tool designed for deployment on standalone computing devices like **Raspberry Pi**.  
-The app enables users to capture and upload sand sample images, send them to a cloud-hosted deep learning model for analysis, and visualize results with geolocation tagging and CSV export.  
+  **GrainEye** is a sand grain analyzer and beach mapping tool designed for deployment on standalone computing devices like **Raspberry Pi**.  
+  The app enables users to capture and upload sand sample images, send them to a cloud-hosted deep learning model for analysis, and visualize results with geolocation tagging and CSV export.  
 
 This project is being developed as part of the **Smart India Hackathon (SIH) 2025** submission.  
 
@@ -15,8 +15,8 @@ This project is being developed as part of the **Smart India Hackathon (SIH) 202
 - 📸 **Image Upload & Analysis**  
   - Capture/upload sand sample images from the Raspberry Pi camera.  
   - Send images to cloud-hosted ML model for sand grain analysis.  
-  - Receive structured results back in the app.  
-
+  - Receive structured results back in the app.
+    
 - 🏝️ **Sand Grain Analysis Output** (Example)  
         SAND TYPE ANALYSIS COMPLETE:
         
@@ -32,13 +32,14 @@ This project is being developed as part of the **Smart India Hackathon (SIH) 202
         • GPS: 21.63°N, 87.55°E
         • Time: 2025-09-25 1:48pm
         • Image: c:/users/.../20191010_130927_1c.jpg
-  - 📍 **Geolocation Tagging**  
-- Fetch real-time GPS coordinates using **EC2000U-CN GNSS module**.  
-- Tag analysis data on a custom-built mapping API.  
-
-- 💾 **Data Export**  
-- Save full results to a `.csv` file.  
-- Start over with a new sample using the **Restart** button.  
+  
+- 📍 **Geolocation Tagging**  
+  - Fetch real-time GPS coordinates using **EC2000U-CN GNSS module**.  
+  - Tag analysis data on a custom-built mapping API.  
+  
+  - 💾 **Data Export**  
+  - Save full results to a `.csv` file.  
+  - Start over with a new sample using the **Restart** button.  
 
 ---
 
@@ -57,7 +58,6 @@ This project is being developed as part of the **Smart India Hackathon (SIH) 202
    - **Raspberry Pi Camera**: image capture.  
    - **EC2000U-CN Module**: GNSS-based location tracking and internet connection.  
  
-
 ---
 
 ## 🖥️ Tech Stack
@@ -70,6 +70,8 @@ This project is being developed as part of the **Smart India Hackathon (SIH) 202
 
 ## 🚀 Getting Started
   1. **Clone this repository**
+     ``bash
+               git clone https://github.com/your-username/GrainEye.git
   2. Open in Visual Studio (or Raspberry Pi toolchain).
   3. Build the project.
   4. Run the app on Raspberry Pi device with connected camera + GNSS module.
@@ -85,16 +87,12 @@ This project is being developed as part of the **Smart India Hackathon (SIH) 202
   Offline fallback mode with lightweight local analysis.
 
 ⚠️ Disclaimer
-
   This project is currently under development and submitted as part of SIH 2025.
   The code is intended for demonstration purposes only.
   Redistribution, modification, or commercial use is not permitted at this stage.
   A proper open-source license will be added after final release.
 
 👨‍💻 Contributors
-
-  Team GrainEYE
-  
-  Subhajit Halder– C++ Development, System Architecture
-  
+  Team GrainEYE  
+  Subhajit Halder– C++ Development, System Architecture  
   Aniket Mandal- Deep Learning Model, under development
